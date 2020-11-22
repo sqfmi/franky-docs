@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Pretendo';
+  src: url('../fonts/Pretendo.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'Futura Bold Oblique';
+  src: url('../fonts/Futura Bold Oblique.otf')  format('truetype')
+}
+
+body{
+	background-color: #202e28;
+	text-align: center;
+}
+
+.brand{
+	font-size: 500%;
+	font-family: "Futura";
+	color: #fcdc92;
+	padding:0;
+	text-align: center;
+}
+
+.brand p{
+	margin-top:0;
+	margin-bottom:1em;
+}
+
+.brand h1{
+	font-size: 2em;
+	font-family: "Futura Bold Oblique";
+	margin:0.5em auto;
+}
+
+.brand h2{
+	font-size: 0.8em;
+	font-family: "Pretendo";
+	border: solid 0.15em #000;
+	border-radius: 1em;
+	border-color: #fcdc92;
+	padding:0.2em 0em;
+	width:6em;
+	margin:0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .brand {
+    font-size: 200%;
+  }
+}
+
